@@ -13,6 +13,9 @@ UBUNTU_RELEASES = [
     'jammy',
     'kinetic',
     'lunar',
+    'mantic',
+    'noble',
+    'oracular',
 ]
 
 OPENSTACK_RELEASES = [
@@ -23,6 +26,9 @@ OPENSTACK_RELEASES = [
     'yoga',
     'zed',
     'antelope',
+    'bobcat',
+    'caracal',
+    'dalmation',
 ]
 
 LONG_DESC = """

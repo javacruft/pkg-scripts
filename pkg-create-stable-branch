@@ -28,8 +28,8 @@ fi
 set +e
 git branch -a | grep ${stable_branch}
 if [ $? -eq 0 ]; then
-    echo "ERROR: ${stable_branch} branch already exists"
-    exit 1
+    echo "SKIP: ${stable_branch} branch already exists"
+    exit 0
 fi
 set -e
 
