@@ -43,6 +43,7 @@ octavia
 octavia-dashboard
 openstack-trove
 ovn-octavia-provider
+ovn-bgp-agent
 panko
 placement
 python-aodhclient
