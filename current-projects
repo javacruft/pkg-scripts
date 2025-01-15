@@ -43,10 +43,8 @@ ovn-bgp-agent
 ovn-octavia-provider
 placement
 swift
-trove-dashboard
 virtualbmc
 vitrage
-vmware-nsx
 watcher
 watcher-dashboard
 zaqar
