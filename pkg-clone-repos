@@ -1,0 +1,13 @@
+#!/bin/bash
+
+projects_file=$1
+
+projects=$(cat ${projects_file})
+mkdir -p repos
+
+(
+    cd repos
+    for project in $projects; do
+        git clone lp:~ubuntu-openstack-dev/ubuntu/+source/$project
+    done
+)
