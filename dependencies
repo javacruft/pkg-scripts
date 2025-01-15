@@ -97,3 +97,4 @@ python-zaqarclient
 python-zunclient
 stevedore
 virtualbmc
+zvmcloudconnector
