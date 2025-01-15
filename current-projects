@@ -20,9 +20,6 @@ manila-ui
 masakari
 masakari-monitors
 mistral
-murano
-murano-agent
-murano-dashboard
 networking-arista
 networking-bagpipe
 networking-baremetal
@@ -43,7 +40,6 @@ ovn-bgp-agent
 ovn-octavia-provider
 placement
 swift
-virtualbmc
 vitrage
 watcher
 watcher-dashboard
