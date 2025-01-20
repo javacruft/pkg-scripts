@@ -5,7 +5,6 @@ cinder
 designate
 designate-dashboard
 glance
-gnocchi
 heat
 heat-dashboard
 horizon
