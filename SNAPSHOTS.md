@@ -21,7 +21,7 @@ This will take a while - packages are places in the `pkg` subfolder.
 for package in `cat current-projects`; do
     (
         cd pkg/$package
-        git push origin upstream-epoxy pristine
+        git push origin upstream-epoxy pristine-tar
         git push origin --tags
     )
 done
