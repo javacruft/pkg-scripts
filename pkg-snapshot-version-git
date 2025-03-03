@@ -148,12 +148,9 @@ version=$(calculate_snapshot_version ${tag})
 
 # clone package branch and import snapshot tarball
 cd pkg
-git clone lp:~ubuntu-openstack-dev/ubuntu/+source/$package || true
+rm -rf $package
+cloud-archive-clone-repo $package
 cd $package
-git pull
-git checkout pristine-tar
-git checkout upstream-${release}
-git checkout $branch
 date=$(date +%Y%m%d%H)
 if [ "$package" = "openstack-trove" ]
 then
