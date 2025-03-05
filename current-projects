@@ -20,6 +20,7 @@ masakari
 masakari-monitors
 masakari-dashboard
 mistral
+mistral-dashboard
 networking-arista
 networking-bagpipe
 networking-baremetal
