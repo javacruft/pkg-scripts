@@ -18,6 +18,7 @@ manila
 manila-ui
 masakari
 masakari-monitors
+masakari-dashboard
 mistral
 networking-arista
 networking-bagpipe
