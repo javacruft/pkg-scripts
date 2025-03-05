@@ -31,6 +31,8 @@ IGNORE_PROJECTS = [
   'reno',
   'virtualenv',
   'yamllint',
+  'isort',
+  'coverage',
 ]
 CPYTHON3 = '/usr/share/dh-python/dist/cpython3_fallback'
 REQ_FILES = [
